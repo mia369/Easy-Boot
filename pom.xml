@@ -19,15 +19,13 @@
     <url>http://ev-doc.easy-frame.top/</url>
 
     <modules>
-<!--        <module>easy-activiti</module>-->
         <module>easy-api</module>
-        <module>easy-common</module>
         <module>easy-file</module>
         <module>easy-generator</module>
         <module>easy-sample</module>
         <module>easy-scheduler</module>
         <module>easy-sys</module>
-<!--        <module>easy-cms</module>-->
+        <module>easy-core</module>
     </modules>
 
     <properties>
@@ -59,27 +57,7 @@
         <dependencies>
             <dependency>
                 <groupId>com.easy.admin</groupId>
-                <artifactId>easy-activiti</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.easy.admin</groupId>
                 <artifactId>easy-core</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.easy.admin</groupId>
-                <artifactId>easy-mybatis</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.easy.admin</groupId>
-                <artifactId>easy-redis</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.easy.admin</groupId>
-                <artifactId>easy-swagger</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
@@ -105,16 +83,6 @@
             <dependency>
                 <groupId>com.easy.admin</groupId>
                 <artifactId>easy-sys</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.easy.admin</groupId>
-                <artifactId>easy-cms</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.easy.admin</groupId>
-                <artifactId>easy-elasticsearch</artifactId>
                 <version>${project.version}</version>
             </dependency>
         </dependencies>
