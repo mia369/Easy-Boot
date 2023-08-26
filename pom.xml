@@ -19,11 +19,7 @@
     <url>http://ev-doc.easy-frame.top/</url>
 
     <modules>
-        <module>easy-api</module>
-        <module>easy-file</module>
-        <module>easy-generator</module>
-        <module>easy-sample</module>
-        <module>easy-scheduler</module>
+        <module>easy-server</module>
         <module>easy-sys</module>
         <module>easy-core</module>
     </modules>
@@ -58,26 +54,6 @@
             <dependency>
                 <groupId>com.easy.admin</groupId>
                 <artifactId>easy-core</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.easy.admin</groupId>
-                <artifactId>easy-file</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.easy.admin</groupId>
-                <artifactId>easy-generator</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.easy.admin</groupId>
-                <artifactId>easy-sample</artifactId>
-                <version>${project.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.easy.admin</groupId>
-                <artifactId>easy-scheduler</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
