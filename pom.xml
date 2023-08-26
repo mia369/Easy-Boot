@@ -19,7 +19,7 @@
     <url>http://ev-doc.easy-frame.top/</url>
 
     <modules>
-        <module>easy-activiti</module>
+<!--        <module>easy-activiti</module>-->
         <module>easy-api</module>
         <module>easy-common</module>
         <module>easy-file</module>
@@ -27,7 +27,7 @@
         <module>easy-sample</module>
         <module>easy-scheduler</module>
         <module>easy-sys</module>
-        <module>easy-cms</module>
+<!--        <module>easy-cms</module>-->
     </modules>
 
     <properties>
