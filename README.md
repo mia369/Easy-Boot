@@ -87,3 +87,8 @@ project:
 ## 启动服务
 
 执行`com.easy.admin.Application`启动服务
+
+前端服务:
+`npm install -g yarn`
+`yarn install`
+`yarn run serve`
